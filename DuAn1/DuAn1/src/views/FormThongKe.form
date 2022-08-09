@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="views.FormThongKe">
+  <grid id="27dc6" binding="JPL" layout-manager="GridLayoutManager" row-count="9" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="469" height="293"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="f2019" class="javax.swing.JMenuBar" layout-manager="GridLayoutManager" row-count="1" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="7c2b5" class="javax.swing.JMenu" binding="mnuHeThong" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Hệ Thống"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="b6bd9" class="javax.swing.JMenuItem" binding="ImnuDangXuat">
+                <constraints/>
+                <properties>
+                  <enabled value="true"/>
+                  <icon value="img/Exit.png"/>
+                  <text value="Đăng Xuất"/>
+                </properties>
+              </component>
+              <component id="cb0fc" class="javax.swing.JMenuItem" binding="ImnuDoiPass">
+                <constraints/>
+                <properties>
+                  <icon value="img/Edit.png"/>
+                  <text value="Đổi pass"/>
+                </properties>
+              </component>
+              <component id="d07e5" class="javax.swing.JMenuItem" binding="Imnudoimapin">
+                <constraints/>
+                <properties>
+                  <icon value="img/Exit button.png"/>
+                  <text value="Thoát"/>
+                </properties>
+              </component>
+              <component id="7ff24" class="javax.swing.JMenuItem" binding="ImnuGIoiThieu">
+                <constraints/>
+                <properties>
+                  <icon value="img/Text.png"/>
+                  <text value="GioiThieu"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="b3db6" class="javax.swing.JMenu" binding="MnuQuanLi" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Quản Lí"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="a6a1d" class="javax.swing.JMenuItem" binding="ImnuQuanLiKho">
+                <constraints/>
+                <properties>
+                  <icon value="img/Flow block.png"/>
+                  <text value="Quản Lí Kho Sách"/>
+                  <verticalAlignment value="0"/>
+                </properties>
+              </component>
+              <component id="d43b5" class="javax.swing.JMenuItem" binding="ImnuQuanLiDocGia">
+                <constraints/>
+                <properties>
+                  <icon value="img/User.png"/>
+                  <text value="Quản Lí Độc Giả"/>
+                </properties>
+              </component>
+              <component id="b76af" class="javax.swing.JMenuItem" binding="ImnuQuanLiNhanVien">
+                <constraints/>
+                <properties>
+                  <icon value="img/User group.png"/>
+                  <text value="Quản lí nhân viên"/>
+                </properties>
+              </component>
+              <grid id="f1f8c" class="javax.swing.JMenu" binding="MnuQuanLiThem" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                <constraints/>
+                <properties>
+                  <icon value="img/Genealogy.png"/>
+                  <text value="mở rộng quản lí"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="facb0" class="javax.swing.JMenuItem" binding="ImnuQuanLiLoaiSach">
+                    <constraints/>
+                    <properties>
+                      <text value="Quản Lí Loại Sách"/>
+                    </properties>
+                  </component>
+                  <component id="5b9c" class="javax.swing.JMenuItem" binding="ImnuQuanLITacGia">
+                    <constraints/>
+                    <properties>
+                      <text value="Quản Lí Tác Giả"/>
+                    </properties>
+                  </component>
+                  <component id="1b19" class="javax.swing.JMenuItem" binding="ImnuQuanLiNXB">
+                    <constraints/>
+                    <properties>
+                      <text value="Quản Lí NXB"/>
+                    </properties>
+                  </component>
+                  <component id="a7015" class="javax.swing.JMenuItem" binding="ImnuQuanLiViTri">
+                    <constraints/>
+                    <properties>
+                      <icon value="img/Add to basket.png"/>
+                      <text value="Quản Lí Vị Trí"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="b0d6e" class="javax.swing.JMenu" binding="MnuThongKe" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Thống Kê"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="f41de" class="javax.swing.JMenuItem" binding="ImnuThongKeSach">
+                <constraints/>
+                <properties>
+                  <icon value="img/Best.png"/>
+                  <text value="Thống Kê Sách"/>
+                </properties>
+              </component>
+              <component id="22070" class="javax.swing.JMenuItem" binding="ImnuThongKeDocGia">
+                <constraints/>
+                <properties>
+                  <icon value="img/Statistics.png"/>
+                  <text value="Thống Kê Độc Giả"/>
+                </properties>
+              </component>
+              <component id="edf01" class="javax.swing.JMenuItem" binding="ImnuTongHop">
+                <constraints/>
+                <properties>
+                  <icon value="img/Bar chart.png"/>
+                  <text value="tổng hợp thống kê"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="a446c" class="javax.swing.JMenu" binding="MnuTroGiup" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Trợ Giúp"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="637ba" class="javax.swing.JMenuItem" binding="ImnuHuongDan">
+                <constraints/>
+                <properties>
+                  <icon value="img/Globe.png"/>
+                  <text value="Hướng Dẫn"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="88a6f" class="javax.swing.JMenu" binding="MnuDongGop" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Góp Ý"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="d7e0c" class="javax.swing.JMenuItem" binding="ImnuWeb">
+                <constraints/>
+                <properties>
+                  <icon value="img/Call.png"/>
+                  <text value="Trang Đóng góp "/>
+                </properties>
+              </component>
+              <component id="c84f0" class="javax.swing.JMenuItem" binding="ImnuBaoLoi">
+                <constraints/>
+                <properties>
+                  <icon value="img/Hungup.png"/>
+                  <text value="báo lỗi"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <tabbedpane id="f4dad" binding="tabbedPane1">
+        <constraints>
+          <grid row="1" column="2" row-span="8" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="d75a1" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title=""/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="b8ac9" class="javax.swing.JButton" binding="btnThongKe">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Thống Kê"/>
+                </properties>
+              </component>
+              <component id="b25dd" class="javax.swing.JButton" binding="btnXuat">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Xuất"/>
+                </properties>
+              </component>
+              <scrollpane id="a73ca">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="a36e5" class="javax.swing.JTable" binding="tblSach">
+                    <constraints/>
+                    <properties/>
+                  </component>
+                </children>
+              </scrollpane>
+              <component id="dc2ea" class="javax.swing.JComboBox" binding="cbbThongKe">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                </properties>
+              </component>
+              <component id="a8b1c" class="javax.swing.JLabel" binding="lblTile">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="28"/>
+                  <foreground color="-16175941"/>
+                  <text value="THỐNG KÊ SÁCH .     "/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="de781" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title=""/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="d7763" class="javax.swing.JLabel" binding="lblTile1">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="28"/>
+                  <foreground color="-16111429"/>
+                  <text value="THỐNG KÊ ĐỘC GIẢ.     "/>
+                </properties>
+              </component>
+              <component id="cf0c1" class="javax.swing.JComboBox" binding="ccbDocGia">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                </properties>
+              </component>
+              <component id="e1155" class="javax.swing.JButton" binding="btnXuatDocGia">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Xuất"/>
+                </properties>
+              </component>
+              <scrollpane id="5a245">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="624a2" class="javax.swing.JTable" binding="tblDocGia">
+                    <constraints/>
+                    <properties/>
+                  </component>
+                </children>
+              </scrollpane>
+              <component id="9b3a2" class="javax.swing.JButton" binding="btnThongKeDocGia">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Thống Kê"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="9e7f3" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title=""/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="c3a96" class="javax.swing.JLabel" binding="lblTile2">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="28"/>
+                  <foreground color="-16111429"/>
+                  <text value="TỔNG HỢP     "/>
+                </properties>
+              </component>
+              <component id="e980" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Comic Sans MS" size="48" style="1"/>
+                  <text value="HELLO"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+      <component id="d08da" class="javax.swing.JButton" binding="btnMauNen">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-65530"/>
+          <icon value="img/Basket.png"/>
+          <text value="đổi màu nền "/>
+        </properties>
+      </component>
+      <component id="790e5" class="javax.swing.JButton" binding="btnTrangChu">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-60155"/>
+          <icon value="img/Home.png"/>
+          <text value="Trang Chủ"/>
+        </properties>
+      </component>
+      <component id="b739e" class="javax.swing.JButton" binding="btnNhanVien">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15204560"/>
+          <icon value="img/User group.png"/>
+          <text value="Nhân Viên"/>
+        </properties>
+      </component>
+      <component id="9c965" class="javax.swing.JButton" binding="btnDocGia">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14745802"/>
+          <icon value="img/User.png"/>
+          <text value="Độc Giả"/>
+        </properties>
+      </component>
+      <component id="d327e" class="javax.swing.JButton" binding="btnKhoSach">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14745802"/>
+          <icon value="img/Flow block.png"/>
+          <text value="Kho Sách"/>
+        </properties>
+      </component>
+      <component id="887d2" class="javax.swing.JButton" binding="btntra">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15204560"/>
+          <icon value="img/Text.png"/>
+          <text value="Phiếu Trả"/>
+        </properties>
+      </component>
+      <vspacer id="62be1">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="ae934" class="javax.swing.JButton" binding="btnMuon">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15204560"/>
+          <icon value="img/Properties.png"/>
+          <text value="Phiếu Mượn"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
